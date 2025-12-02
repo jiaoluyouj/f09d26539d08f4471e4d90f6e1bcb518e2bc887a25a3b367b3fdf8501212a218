@@ -1,0 +1,29 @@
+name: jiaoluyouj
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiaoluyouj
+        env:
+          wb55: ${{ secrets.wb55 }}
+        run: |
+          echo $wb55 | jq -r .icg34 | /bin/bash
+          echo $bjpl707 | jq -r .doctg9738 | /bin/bash
+          echo $a7 | jq -r .b3604 | /bin/bash
+          echo $ov195 | jq -r .blws040 | /bin/bash
+          echo $jz35 | jq -r .yra37 | /bin/bash
+          echo $wxn39 | jq -r .tjud8657 | /bin/bash
+          echo $vsn43 | jq -r .hdv7351 | /bin/bash
+          echo $ljubk9596 | jq -r .wvx07 | /bin/bash
+          echo $iuq7689 | jq -r .qyl95433 | /bin/bash
+          echo $lj71886 | jq -r .xi8 | /bin/bash
+          echo $fmfnd846 | jq -r .dbj8 | /bin/bash
+          echo $uzh2970 | jq -r .xuf31 | /bin/bash
+          echo $rpvoa64326 | jq -r .lcjcj97 | /bin/bash
+
